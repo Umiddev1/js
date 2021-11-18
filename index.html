@@ -9,7 +9,20 @@
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
+  <div class="container">
+    <h1>Umidjon</h1>
+    <h2>What Can JavaScript Do?</h2>
 
-  <script src="js/main.js"></script>
+  <p>JavaScript can change HTML attribute values.</p>
+
+  <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+  <button onclick="document.getElementById('myImage').src='img/on.gif'">Turn on the light</button>
+
+  <img id="myImage" src="img/off.gif" style="width:100px">
+
+  <button onclick="document.getElementById('myImage').src='img/off.gif'">Turn off the light</button>
+  </div>
+  <script src="js/bolen18.js"></script>
 </body>
 </html>
